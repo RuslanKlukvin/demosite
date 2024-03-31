@@ -24,10 +24,16 @@
   background-repeat: no-repeat;
  background-position: center center;
  background-size: cover; 
-  font-size: 115px;
+  font-size: 110px;
   color: transparent;
   -webkit-background-clip: text;
   animation: animate 7s infinite linear;
+  display: flex;
+  column-gap: 30px;
+  row-gap: 60px;
+  flex-wrap: wrap;
+  flex: 1 1 0;
+  min-width: 315px;
 }
 
 @keyframes animate  {
@@ -90,8 +96,13 @@ body {
 
 .footer {
   font-size: 16px;
-  margin: 10;
+  margin: 20;
   position: absolute;
   bottom: -21px;
 }
 
+@media (max-width: 768px) {
+  .main-text{
+    font-size: 80px;
+  }
+}
