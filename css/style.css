@@ -106,3 +106,9 @@ body {
     font-size: 80px;
   }
 }
+
+@media (max-width: 568px) {
+  .main-text{
+    font-size: 76px;
+  }
+}
